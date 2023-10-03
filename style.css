@@ -1,0 +1,115 @@
+body{
+   
+  
+ 
+ 
+   
+   
+   background-color: rgb(17, 16, 16);
+   color: aliceblue;
+
+}
+
+
+
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:3rem;
+   
+ 
+
+}
+
+h2{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   font-size:2rem;
+   
+   transform: translate(1px, 150%);
+
+}
+
+#quantidadeNotas{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:1rem;
+   
+   transform: translate(-1%, 150%);
+
+
+}
+
+#notas{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:1rem;
+   
+   transform: translate(-1%, 200%);
+
+}
+
+#camposDeNota{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:1rem;
+   
+   transform: translate(-1%, 700%);
+
+}
+
+#enviar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size:1rem;
+   
+   transform: translate(-1%, 250%);
+
+
+}
+
+p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 5rem;
+   
+   transform: translate(-1%, 90%);
+
+}
+
+#resultado{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 5rem;
+   
+   transform: translate(-1%, 50%);
+
+}
+
+#mensagem{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 4rem;
+   
+   transform: translate(-1%, 20%);
+
+}
+
+#volta{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   
+   transform: translate(450%, 150%);
+}
