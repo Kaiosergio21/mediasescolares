@@ -28,7 +28,7 @@ h2{
    align-items: center;
    font-size:2rem;
    
-   transform: translate(1px, 150%);
+   transform: translate(1px, 10%);
 
 }
 
@@ -38,28 +38,28 @@ h2{
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 150%);
+   transform: translate(-1%, 50%);
 
 
 }
 
-#notas{
+#n{
    display: flex;
    justify-content: center;
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 200%);
+   transform: translate(120%, -50%);
 
 }
 
-#camposDeNota{
+#Nota{
    display: flex;
    justify-content: center;
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 700%);
+   transform: translate(-1%, 300%);
 
 }
 
