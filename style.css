@@ -1,17 +1,22 @@
 body{
    
   
- 
+   background-image: url("black\ board\ wallpaper.jpg");
+   background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top center;
  
    
    
    background-color: rgb(17, 16, 16);
    color: aliceblue;
 
+  
+  
 }
 
 
-
+/* estilo da página calculo */
 h1{
    display: flex;
    justify-content: center;
@@ -28,7 +33,7 @@ h2{
    align-items: center;
    font-size:2rem;
    
-   transform: translate(1px, 10%);
+   transform: translate(1px, 70%);
 
 }
 
@@ -38,42 +43,79 @@ h2{
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 50%);
+ 
+
+   transform: translate(-1%, 70%);
 
 
 }
 
-#n{
+#notas{
    display: flex;
    justify-content: center;
    align-items: center;
    font-size:1rem;
    
-   transform: translate(120%, -50%);
+   font-size: larger;
+   background: transparent;
+   border:none;
+   color: aliceblue;
+   text-shadow: 2px 2px 4px rgba(48, 46, 46, 0.603);
+
+   cursor: pointer;
+   padding: 0; /* Remove o preenchimento interno (opcional) */
+   margin: 0;
+
+   transform: translate(110%, -7px)
+  
 
 }
 
-#Nota{
+#camposDeNota{
    display: flex;
    justify-content: center;
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 300%);
+   padding: 0; /* Remove o preenchimento interno (opcional) */
+   margin: 0;
+
+   
+  
 
 }
+
+
 
 #enviar{
+   
+   
+   
+   
    display: flex;
    justify-content: center;
    align-items: center;
    font-size:1rem;
    
-   transform: translate(-1%, 250%);
+   background: transparent;
+   border:none;
+   color: aliceblue;
+   text-shadow: 2px 2px 4px rgba(48, 46, 46, 0.603);
+
+    font-size: larger;
+  
+   cursor: pointer;
+   padding: 0; /* Remove o preenchimento interno (opcional) */
+   margin: 0;
+
+   transform: translate(1px, 20px);
 
 
 }
+/* estilo da página calculo */
 
+
+/* estilo da página Resultado */
 p{
    display: flex;
    justify-content: center;
@@ -82,6 +124,16 @@ p{
    
    transform: translate(-1%, 90%);
 
+}
+
+#title{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 4rem;
+   text-shadow: 2px 2px 4px rgba(48, 46, 46, 0.603);
+   
+   transform: translate(-1%, 90%);
 }
 
 #resultado{
@@ -99,17 +151,32 @@ p{
    justify-content: center;
    align-items: center;
    font-size: 4rem;
-   
+   text-shadow: 2px 2px 4px rgba(48, 46, 46, 0.603);
    transform: translate(-1%, 20%);
 
 }
 
 #volta{
-
    display: flex;
    justify-content: center;
    align-items: center;
-   font-size: 2rem;
+   font-size: 4rem;
    
-   transform: translate(450%, 150%);
+
+  
+   background: transparent;
+   border:none;
+   color: aliceblue;
+   text-shadow: 2px 2px 4px rgba(48, 46, 46, 0.603);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+ 
+  
+  cursor: pointer;
+  padding: 0; /* Remove o preenchimento interno (opcional) */
+  margin: 0;
+
+   
+
+   transform: translate(295%, 80%);
 }
+/* estilo da página Resultado */
