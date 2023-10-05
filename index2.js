@@ -26,7 +26,7 @@ document.querySelector('#mensagem').innerHTML = message;
 
 function redirectToInputPage() {
     // Redirect back to the input page
-    window.location.href = 'nota2.html';
+    window.location.href = 'calculo.html';
 
     
 }
